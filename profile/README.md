@@ -123,6 +123,32 @@
     
 # 기능 
 ## 김도윤
+<img width="491" alt="E2BS - JWT" src="https://github.com/user-attachments/assets/730aa56e-5302-4c10-a652-9cf51ab6256c" />
+
+### 인프라
+- CONFIG 서버
+- 공통 ERROR 처리
+
+### 로그인/회원가입
+- Spring Security 및 PAYCO OAuth2를 이용한 로그인 기능 구현
+- 회원가입 회원 생성 기능 구현
+- 휴면 상태 회원 Dooray / Email 인증을 통한 휴면 상태 해제 구현
+
+### 인증/인가
+- 로그인 시 AUTH 서버로 이동하여 Access Token + Refresh Token 발급
+- Access Token은 FRONT 서버 쿠키, Refresh Token은 redis에 저장
+- BACK API 요청 시 GATEWAY 서버에서 회원의 Access Token을 검증
+- Access Token이 유효하지 않으면 Refresh Token이 유효한지 확인하고 유효하면 토큰 재발급
+- Access Token이 유효하면 BACK 서버에 API 요청
+- BACK 서버에서 @MEMBER, @ADMIN 어노테이션을 통해 인가 처리
+
+### 회원/관리자 페이지
+- 회원 메인 마이페이지 진행 중 주문 건수, 쿠폰 보유 개수, 포인트 보유량, 회원 등급 및 최근 주문/배송 내역 구현
+- 회원 개인 정보 수정 / 조회 / 삭제 기능 구현
+- 회원 배송지 관리 생성 / 수정 / 조회 / 삭제 기능 구현
+- 회원 등급 수정 / 조회 기능 구현
+- 관리자 페이지 하루 방문자 수, 총 회원 수, 총 주문 수, 하루 매출, 이번 달 매출, 총 매출 및 일자별 요약 화면 구현
+- 관리자 회원 목록 조회 / 회원 상태 변경 / 회원 권한 변경 / 회원 탈퇴 기능 구현
 
 
 ## 김용경
