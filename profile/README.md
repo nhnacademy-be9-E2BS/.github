@@ -326,4 +326,6 @@
   
 ## 팀원 공통 (수정)
 - 요구 사항에 따른 데이터베이스 설계 및 ERD Diagram 작성
+- Swagger를 사용해 API 정리
+- Test 코드 및 SonarQube를 통해 코드 검증
 
