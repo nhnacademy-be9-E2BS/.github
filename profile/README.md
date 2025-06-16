@@ -1,26 +1,35 @@
-# 📖 E2BS.Shop
-- (프로젝트 설명 추가)
+# E2BS.Shop
+- E2BS는 다양한 카테고리의 책을 조회하고 구매할 수 있는 사이트입니다.
 - URL: https://www.e2bs.shop
 
 ### 개발 기간
 - 2025-04-28 ~ 2025-06-13
 
 ### 구성원
-예시) 추가하기
-| <a href="https://github.com/asdasd7722"><img src="https://avatars.githubusercontent.com/u/89886506?v=4" width="100px"><br>박상준</a> | 
-|-----|-----|-----|----|-----|
+| <a href="https://github.com/Doyun-coding"><img src="https://avatars.githubusercontent.com/u/90900630?v=4" width="100px"><br>김도윤</a> | <a href="https://github.com/K-Y-k"><img src="https://avatars.githubusercontent.com/u/102020649?v=4" width="100px"><br>김용경</a> | <a href="https://github.com/KimHyunKyu1"><img src="https://avatars.githubusercontent.com/u/160554277?v=4" width="100px"><br>김현규</a> |<a href="https://github.com/asdasd7722"><img src="https://avatars.githubusercontent.com/u/107762636?v=4" width="100px"><br>박상준</a> |<a href ="https://github.com/sooooooing"> <img src ="https://avatars.githubusercontent.com/u/126747506?v=4" width ="100px"><br>박수인</a> | <a href ="https://github.com/YoungChae01"> <img src ="https://avatars.githubusercontent.com/u/130735493?v=4" width ="100px"><br>이영채</a> | <a href ="https://github.com/JS01C"> <img src ="https://avatars.githubusercontent.com/u/174989512?v=4" width ="100px"><br>최종성</a>
+|-----|-----|-----|-----|-----|-----|-----|
 
 수정 필요
 ### 개발 환경
 - 개발도구: Intellij IDEA - Ultimate
-- 언어: Java 11 LTS<br>
+- 언어: Java 21 Temurin<br>
 - 빌드도구: Maven
 - 개발
   - Spring Framework: 5.3
-  - Spring Boot: 2.7.18
-  - Spring C시
+  - Spring Boot: 3.4.5
+  - Spring Cloud
+    - Spring Cloud Gateway
+    - Spring Cloud Netflex(Eureka)
+    - Spring Cloud Config
+  - Spring Data
+    - Spring Data JPA
+    - Spring Data Elasticsearch
+    - Spring Data Redis
+   
+
+    
 # 기능 
-## 김수빈
+## 김도윤
 ### 데이터베이스 관리
 1. 개발 도중 발생하는 데이터베이스 수정사항을 반영하고 ERD Diagram, DDL 을 버전별로 관리
 
@@ -50,7 +59,7 @@
 1. 관리자가 카테고리 등록, 수정, 조회, 삭제(soft delete)
 2. 카테고리 계층 구조 설계
 
-## 김수현
+## 김용경
 ### 인증/인가 
 1. 로그인 시 auth server를 통해 JWT token 발급
 2. accessToken 만료시 auth server를 통해 JWT token 재발급
@@ -62,13 +71,13 @@
 2. admin 쿠폰 생성
   
 
-## 박재희
+## 김현규
 ### 주문
 1. admin 주문 조회
    - admin 주문 목록 조회
    - admin 단일 주문 조회
 
-## 신동민
+## 박상준
 ### ObjectStorage 파일 관리
 1. NHN Cloud Object Storage를 통한 파일 관리
 2. 파일 업로드, 수정, 삭제, 다운로드 처리
@@ -129,7 +138,7 @@
     - Mypage에서 포인트 적립/사용 내역을 확인
 
 
-## 정지은
+## 박수인
 ### 인증/인가 
 1. front server에서 페이지 접근 마다 Interceptor를 통해 token 검증 + 재발급
 2. 특정 권한이 필요한 page 접근 시 Interceptor를 통해 권한 확인
@@ -176,6 +185,10 @@
 
 ### front layout 구조 설게
 - page별 HTML layout 설계
+
+## 이영채
+
+## 최종성
 
   
 ## 팀원 공통
