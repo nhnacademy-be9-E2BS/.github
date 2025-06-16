@@ -318,11 +318,5 @@
 - 주문 시 해당 시점에 활성화된 배송비 정책을 적용
   
 ## 팀원 공통 (수정)
-- 서버별 CI/CD 관리
-  - Jenkins : gateway 서버
-  - Github Actions :  front, shop, eureka, batch, auth 서버 관리
-- Jenkins: auth, gateway 서버 CI/CD 관리
-- 데이터베이스 설계 및 ERD Diagram 작성
-- NHN Cloud Load balance를 통해 front server 로드밸런싱
-- Eureka를 사용한 스프링 클라우드환경 구축
+- 요구 사항에 따른 데이터베이스 설계 및 ERD Diagram 작성
 
