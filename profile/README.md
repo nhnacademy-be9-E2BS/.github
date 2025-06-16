@@ -126,8 +126,15 @@
 <img width="491" alt="E2BS - JWT" src="https://github.com/user-attachments/assets/730aa56e-5302-4c10-a652-9cf51ab6256c" />
 
 ### 인프라
-- CONFIG 서버
-- 공통 ERROR 처리
+- GitHub Actions 기반 CI/CD 파이프라인 구축
+- NGINX 리버스 프록시 설정
+- 서버 RSA 암호화 키를 깃허브에 저장하여 SSH로 서버 접근 가능하도록 설정
+- 배포 자동화를 위해 startup.sh 스크립트 내 로직을 구성하여 무중단 배포 서버 구현
+- startup.sh 스크립트 내 로직을 통해 각 서버 빌드 로그들을 저장
+- Cloudflare를 사용하여 https 적용
+- CONFIG 서버 구현 및 CONFIG 서버를 위한 RSA 키를 생성하고, 이를 통해 GitHub 레포지토리에 접근할 수 있도록 설정을 구현
+- DBCP2 설정 및 logback 설정을 통한 로그 관리
+- 공통 ERROR 메세지를 properties에 저장하고 에러 처리를 위한 Controller 구현
 
 ### 로그인/회원가입
 - Spring Security 및 PAYCO OAuth2를 이용한 로그인 기능 구현
