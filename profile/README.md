@@ -89,7 +89,7 @@
 
 
 ## 아키텍쳐 구조
-추가)
+![architect](https://github.com/user-attachments/assets/3de6a5c8-a4fc-4022-b3ea-df2250d1f054)
 <br>
 
 ## CI/CD
