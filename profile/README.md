@@ -9,7 +9,6 @@
 | <a href="https://github.com/Doyun-coding"><img src="https://avatars.githubusercontent.com/u/90900630?v=4" width="100px"><br>김도윤</a> | <a href="https://github.com/K-Y-k"><img src="https://avatars.githubusercontent.com/u/102020649?v=4" width="100px"><br>김용경</a> | <a href="https://github.com/KimHyunKyu1"><img src="https://avatars.githubusercontent.com/u/160554277?v=4" width="100px"><br>김현규</a> |<a href="https://github.com/asdasd7722"><img src="https://avatars.githubusercontent.com/u/107762636?v=4" width="100px"><br>박상준</a> |<a href ="https://github.com/sooooooing"> <img src ="https://avatars.githubusercontent.com/u/126747506?v=4" width ="100px"><br>박수인</a> | <a href ="https://github.com/0u0-chae"> <img src ="https://avatars.githubusercontent.com/u/130735493?v=4" width ="100px"><br>이영채</a> | <a href ="https://github.com/JS01C"> <img src ="https://avatars.githubusercontent.com/u/174989512?v=4" width ="100px"><br>최종성</a>
 |-----|-----|-----|-----|-----|-----|-----|
 
-수정 필요
 ### 개발 환경
 - 개발도구: Intellij IDEA - Ultimate
 - 언어: Java 21 Temurin
