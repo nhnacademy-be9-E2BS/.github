@@ -123,7 +123,7 @@
     
 # 기능 
 ## 김도윤
-<img width="491" alt="E2BS - JWT" src="https://github.com/user-attachments/assets/730aa56e-5302-4c10-a652-9cf51ab6256c" />
+![E2BS - JWT](https://github.com/user-attachments/assets/2975fc0f-2792-4c5f-9494-a0dd84e0f89b)
 
 ### 인프라
 - GitHub Actions 기반 CI/CD 파이프라인 구축
