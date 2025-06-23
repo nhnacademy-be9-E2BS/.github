@@ -1,6 +1,14 @@
-# E2BS.Shop
+# :books: E2BS.Shop
 - E2BS는 다양한 카테고리의 책을 조회하고 구매할 수 있는 사이트입니다.
 - URL: https://www.e2bs.shop
+
+### Repositories
+- front: https://github.com/nhnacademy-be9-E2BS/E2BS-front
+- back: https://github.com/nhnacademy-be9-E2BS/E2BS-back
+- eureka: https://github.com/nhnacademy-be9-E2BS/E2BS-eureka
+- gateway: https://github.com/nhnacademy-be9-E2BS/E2BS-gateway
+- auth: https://github.com/nhnacademy-be9-E2BS/E2BS-auth
+- config: https://github.com/nhnacademy-be9-E2BS/E2BS-config
 
 ### 개발 기간
 - 2025-04-28 ~ 2025-06-13
@@ -9,7 +17,11 @@
 | <a href="https://github.com/Doyun-coding"><img src="https://avatars.githubusercontent.com/u/90900630?v=4" width="100px"><br>김도윤</a> | <a href="https://github.com/K-Y-k"><img src="https://avatars.githubusercontent.com/u/102020649?v=4" width="100px"><br>김용경</a> | <a href="https://github.com/KimHyunKyu1"><img src="https://avatars.githubusercontent.com/u/160554277?v=4" width="100px"><br>김현규</a> |<a href="https://github.com/asdasd7722"><img src="https://avatars.githubusercontent.com/u/107762636?v=4" width="100px"><br>박상준</a> |<a href ="https://github.com/sooooooing"> <img src ="https://avatars.githubusercontent.com/u/126747506?v=4" width ="100px"><br>박수인</a> | <a href ="https://github.com/0u0-chae"> <img src ="https://avatars.githubusercontent.com/u/130735493?v=4" width ="100px"><br>이영채</a> | <a href ="https://github.com/JS01C"> <img src ="https://avatars.githubusercontent.com/u/174989512?v=4" width ="100px"><br>최종성</a>
 |-----|-----|-----|-----|-----|-----|-----|
 
-### 개발 환경
+### :trophy: 우수상 수상
+<img src = "https://github.com/user-attachments/assets/f9c5e8df-7722-4343-bd10-47ccbe97d6a7" width="500" height="400" />
+
+
+### 🏢 개발 환경
 - 개발도구: Intellij IDEA - Ultimate
 - 언어: Java 21 Temurin
 - 빌드도구: Maven
@@ -68,7 +80,6 @@
 ![Github Action](https://img.shields.io/badge/Github%20Action-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
 ### DevOps
-![NHN Cloud](https://img.shields.io/badge/-NHN%20Cloud-blue?style=for-the-badge&logo=iCloud&logoColor=white)
 ![SonarQube](https://img.shields.io/badge/SonarQube-4E98CD?style=for-the-badge&logo=SonarQube&logoColor=white)
 
 ### ETC
@@ -87,7 +98,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
 
 
-## 아키텍쳐 구조
+## ⚙️ 아키텍쳐 구조
 ![architect](https://github.com/user-attachments/assets/3de6a5c8-a4fc-4022-b3ea-df2250d1f054)
 <br>
 
@@ -95,11 +106,11 @@
 ![cicd](https://github.com/user-attachments/assets/8bf00665-14d9-4177-9ff9-2b499cd3d2fa)
 <br>
 
-### ERD
+## 🔑 ERD
 ![erd](https://github.com/user-attachments/assets/35649ef1-e76b-4d05-b491-0c23d85df132)
 <br>
   
-## Project Management
+## :calendar: Project Management
 > Github 제공하는 `Projects`를 활용하여 전반적인 프로젝트 관리
 
 ### Scrum
@@ -109,18 +120,23 @@
   - 금일 Scrum Meeting까지 진행한 내용
   - 다음 Scrum Meeting까지 진행할 내용
   - 팀원들과 논의가 필요하다고 판단되는 사항
+- https://github.com/orgs/nhnacademy-be9-E2BS/projects/3
+- https://www.notion.so/NHN-Academy-6-2-E2BS-1e64f3072fc08053bd0cdf4a3676ace6
     
 ![scrum](https://github.com/user-attachments/assets/0ac52411-5da0-4797-a228-3c1f7039b2cb)
-
 
 ### 일정관리
 - GitHub Roadmap을 활용하여 전체 일정 및 진행 상황을 시각적으로 관리
 - WBS(Work Breakdown Structure)를 작성하여 요구사항을 세부 작업으로 분해하고, 이를 GitHub Issue로 등록하여 역할을 분담하고 일정 추적
+- https://github.com/orgs/nhnacademy-be9-E2BS/projects/2
   
 ![project](https://github.com/user-attachments/assets/4ae24748-95db-4842-9fd5-f9fb157bb878)
 
-    
-# 기능 
+
+# 기능
+## ▶️ 시연 영상
+[![Video Label](http://img.youtube.com/vi/XbnAksceH2I/0.jpg)](https://youtu.be/XbnAksceH2I)
+
 ## 김도윤
 ![E2BS - JWT](https://github.com/user-attachments/assets/2975fc0f-2792-4c5f-9494-a0dd84e0f89b)
 
@@ -195,6 +211,7 @@
     - 팀 회의 시 논의 및 결정된 내용을 Notion을 활용해 체계적으로 정리
     - 기억 왜곡, 커뮤니케이션 누락을 방지하고 협업 효율을 높이기 위해 회의 직후 실시간 기록
 - DB 매니저
+    - https://github.com/orgs/nhnacademy-be9-E2BS/projects/5
     - 각 팀원이 요청한 필드 추가, 자료형 변경, 제약 조건 등을 검토하고 ERD/DDL을 통합된 구조로 관리
     - 변경 시 변경된 사유와 함께 기록하여 형상 일관성 유지
 - 프로젝트 시연 영상 제작
