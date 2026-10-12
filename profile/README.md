@@ -30,7 +30,7 @@
   - Spring Boot: 3.4.5
   - Spring Cloud
     - Spring Cloud Gateway
-    - Spring Cloud Netflex(Eureka)
+    - Spring Cloud Netflix(Eureka)
     - Spring Cloud Config
   - Spring Data
     - Spring Data JPA
